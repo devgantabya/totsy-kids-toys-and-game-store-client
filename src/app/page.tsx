@@ -1,5 +1,7 @@
 import Categories from "@/components/home/Categories";
+import FeaturedToys from "@/components/home/FeaturedToys";
 import HeroSlider from "@/components/home/HeroSlider";
+import KidsFashion from "@/components/home/KidsFashion";
 import TrendingProducts from "@/components/home/TrendingProducts";
 
 export default function Home() {
@@ -9,7 +11,9 @@ export default function Home() {
       <main className="">
         <HeroSlider />
         <Categories />
-        <TrendingProducts/>
+        <TrendingProducts />
+        <FeaturedToys />
+        <KidsFashion/>
       </main>
     </div>
   );
