@@ -1,11 +1,13 @@
 "use client";
 
 import Link from "next/link";
-import { Facebook, Instagram, Twitter, Mail } from "lucide-react";
+import { Facebook, Instagram, Mail } from 'lucide-react';
+import { Twitter } from 'lucide-react';
+
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-100 mt-20 border-t">
+    <footer className="bg-gray-100">
 
       <div className="max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-4 gap-8">
 
@@ -73,7 +75,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom */}
-      <div className="border-t text-center py-4 text-sm text-gray-500">
+      <div className="border-t border-gray-300 text-center py-4 text-sm text-gray-500">
         © {new Date().getFullYear()} Totsy. All rights reserved.
       </div>
 

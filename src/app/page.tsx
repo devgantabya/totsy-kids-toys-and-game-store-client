@@ -2,6 +2,7 @@ import Categories from "@/components/home/Categories";
 import FeaturedToys from "@/components/home/FeaturedToys";
 import HeroSlider from "@/components/home/HeroSlider";
 import KidsFashion from "@/components/home/KidsFashion";
+import Testimonials from "@/components/home/Testimonials";
 import TrendingProducts from "@/components/home/TrendingProducts";
 
 export default function Home() {
@@ -13,7 +14,8 @@ export default function Home() {
         <Categories />
         <TrendingProducts />
         <FeaturedToys />
-        <KidsFashion/>
+        <KidsFashion />
+        <Testimonials />
       </main>
     </div>
   );
