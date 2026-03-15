@@ -24,3 +24,58 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: 40px !important;
+  height: 40px !important;
+  background: white;
+  border-radius: 9999px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  color: #ec4899;
+}
+
+.swiper-navigation-icon{
+  color: #ec4899;
+  height: 24px !important;
+  width: 24px !important;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background: #ec4899;
+  color: white;
+}
+
+.swiper-button-prev:hover .swiper-navigation-icon,
+.swiper-button-next:hover .swiper-navigation-icon {
+  color: white;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.swiper-button-prev {
+  left: 20px;
+}
+
+.swiper-button-next {
+  right: 20px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(6px);
+}
+
+@media (max-width: 768px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+}
+
