@@ -1,36 +1,140 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧸 Totsy – Kids Toys & Fashion Store
 
-## Getting Started
+Totsy is a modern **kids eCommerce web application** designed to showcase toys, educational products, and kids fashion in a fun and engaging way.
+The project focuses on **clean UI, responsive design, and modern frontend architecture**.
 
-First, run the development server:
+This project was built as part of a **portfolio project to demonstrate modern web development practices using Next.js and Tailwind CSS.**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## ✨ Features
+
+- 🎠 Modern **Hero Slider**
+- 🛍️ **Shop by Category** section
+- 🔥 **Trending Products**
+- 🧸 **Featured Toys**
+- 👕 **Kids Fashion Collection**
+- 💬 **Auto Sliding Testimonials Carousel**
+- 📱 **Fully Responsive Design**
+- ⚡ Fast performance with **Next.js**
+- 🎨 Modern UI with **Tailwind CSS**
+
+---
+
+## 🖼️ UI Highlights
+
+- Clean **kids-friendly design**
+- Smooth **hover animations**
+- **Swiper.js carousel sliders**
+- Floating **testimonial cards**
+- Soft color palette designed for **kids brands**
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology   | Usage               |
+| ------------ | ------------------- |
+| Next.js      | React framework     |
+| TypeScript   | Type safety         |
+| Tailwind CSS | UI styling          |
+| Swiper.js    | Sliders & carousels |
+| React        | Frontend UI         |
+| Vercel       | Deployment          |
+
+---
+
+## 📂 Project Structure
+
+```
+components/
+   Header.tsx
+   Footer.tsx
+   HeroSlider.tsx
+
+components/home/
+   Categories.tsx
+   TrendingProducts.tsx
+   FeaturedToys.tsx
+   KidsFashion.tsx
+   Testimonials.tsx
+
+app/
+   layout.tsx
+   page.tsx
+
+public/
+   images
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Getting Started
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 1️⃣ Clone the repository
 
-## Learn More
+```
+git clone https://github.com/devgantabya/totsy-kids-toys-and-game-store-client.git
+```
 
-To learn more about Next.js, take a look at the following resources:
+### 2️⃣ Install dependencies
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+npm install
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 3️⃣ Run development server
 
-## Deploy on Vercel
+```
+npm run dev
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 4️⃣ Open in browser
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+http://localhost:3000
+```
+
+---
+
+## 📸 Screens Included
+
+- Homepage hero slider
+- Product showcase sections
+- Testimonials carousel
+- Responsive layout
+
+---
+
+## 🎯 Project Goals
+
+This project was created to:
+
+- Practice **modern frontend development**
+- Build a **realistic eCommerce UI**
+- Improve **Next.js + Tailwind skills**
+- Create a **portfolio-ready project**
+
+---
+
+## 🔮 Future Improvements
+
+- Product details page
+- Shopping cart
+- Authentication
+- Product filtering
+- Payment integration
+
+---
+
+## 👨‍💻 Author
+
+**Gantabya Kumar Bayda**
+
+- GitHub: https://github.com/devgantabya
+- Portfolio: https://gantabyacodes.vercel.app
+- LinkedIn: https://www.linkedin.com/in/devgantabya/
+
+---
+
+⭐ If you like this project, consider giving it a **star on GitHub!**
